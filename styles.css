@@ -173,6 +173,14 @@ body {
   text-align: justify;
 }
 
+.skills__list {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+
+  color: var(--secondary-text-color);
+}
+
 /* Experience and additional info styles */
 
 .experiences {
@@ -235,6 +243,10 @@ body {
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university {
   margin-bottom: 20px;
 }
 
